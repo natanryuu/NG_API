@@ -1,0 +1,16 @@
+@mod09API_HostAddress = http://localhost:5142
+
+GET {{mod09API_HostAddress}}/wf/
+Accept: application/json
+
+###
+
+POST {{mod09API_HostAddress}}/wf/
+Content-Type: application/json
+
+{
+    "date": "2024-09-13",
+    "temperatureC": -10,
+    "temperatureF": 15,
+    "summary": "Sweltering"
+}
